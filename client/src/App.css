@@ -1,0 +1,76 @@
+.App {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-width: 1088px;
+    max-height: 648px;
+    width: calc(100% - 64px);
+    height: calc(100% - 64px);
+    border-radius: 4px;
+    background-color: #ffffff;
+    transform: translate(-50%, -50%);
+}
+
+
+.loading-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* General Styling */
+
+h1.main {
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(33, 34, 64, 0.16);
+}
+
+h1 {
+    position: relative;
+    letter-spacing: -0.18px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+h2 {
+    color: #717285;
+    letter-spacing: 0;
+    font-weight: 300;
+}
+
+h2 + * {
+    margin-top: 16px;
+}
+
+input {
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+}
+
+.currency {
+    margin-left: 4px;
+}
+
+.button {
+    margin-top: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+    border-radius: 4px;
+    background: #7350ff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 14px;
+    cursor: pointer;
+}
+
+.button:disabled {
+    background-color: #e3dcff;
+}

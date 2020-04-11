@@ -1,0 +1,25 @@
+.product-quantity {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #dbdbe0;
+    border-radius: 4px;
+    text-align: center;
+
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.count {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+button.count {
+    padding: 0 8px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    color: #7350ff;
+    font-weight: bold;
+    cursor: pointer;
+}

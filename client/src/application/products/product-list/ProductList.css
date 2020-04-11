@@ -1,0 +1,35 @@
+.products-list {
+    position: relative;
+    width: 100%;
+    overflow-y: scroll;
+    max-height: 446px;
+}
+
+.row + .row {
+    margin-top: 32px;
+}
+
+[class*="col-"] {
+    display: flex;
+    align-items: center;
+}
+
+[class*="col-"]:nth-child(n + 2) {
+    justify-content: center;
+}
+
+.col-product {
+    width: 45%;
+}
+
+.col-quantity {
+    width: 20%;
+}
+
+.col-price {
+    width: 20%;
+}
+
+.col-total {
+    width: 15%;
+}
